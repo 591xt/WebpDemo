@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9AFDFA32124089800A35C53 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AFDFA12124089800A35C53 /* WebP.framework */; };
-		D9AFDFA42124089800A35C53 /* libYZwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AFDFA22124089800A35C53 /* libYZwebp.a */; };
+		3BDABB702444B80D007B4BE2 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDABB6D2444B80D007B4BE2 /* WebP.framework */; };
+		3BDABB712444B80D007B4BE2 /* libYZwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDABB6E2444B80D007B4BE2 /* libYZwebp.a */; };
 		FB2B587820C4DEA600396EAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2B587720C4DEA600396EAB /* AppDelegate.m */; };
 		FB2B587B20C4DEA600396EAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2B587A20C4DEA600396EAB /* ViewController.m */; };
 		FB2B588020C4DEAA00396EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2B587F20C4DEAA00396EAB /* Assets.xcassets */; };
@@ -36,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D9AFDFA02124089800A35C53 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
-		D9AFDFA12124089800A35C53 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
-		D9AFDFA22124089800A35C53 /* libYZwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYZwebp.a; sourceTree = "<group>"; };
+		3BDABB6D2444B80D007B4BE2 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		3BDABB6E2444B80D007B4BE2 /* libYZwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYZwebp.a; sourceTree = "<group>"; };
+		3BDABB6F2444B80D007B4BE2 /* UIImage+YZWebp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YZWebp.h"; sourceTree = "<group>"; };
 		FB2B587320C4DEA600396EAB /* WEBP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WEBP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB2B587620C4DEA600396EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB2B587720C4DEA600396EAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,8 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9AFDFA42124089800A35C53 /* libYZwebp.a in Frameworks */,
-				D9AFDFA32124089800A35C53 /* WebP.framework in Frameworks */,
+				3BDABB712444B80D007B4BE2 /* libYZwebp.a in Frameworks */,
+				3BDABB702444B80D007B4BE2 /* WebP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,28 +83,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D9AFDF9D2124089800A35C53 /* YZwebp */ = {
+		3BDABB6C2444B80D007B4BE2 /* YZwebp */ = {
 			isa = PBXGroup;
 			children = (
-				D9AFDF9E2124089800A35C53 /* include */,
-				D9AFDFA22124089800A35C53 /* libYZwebp.a */,
-			);
-			path = YZwebp;
-			sourceTree = "<group>";
-		};
-		D9AFDF9E2124089800A35C53 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				D9AFDF9F2124089800A35C53 /* YZwebp */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		D9AFDF9F2124089800A35C53 /* YZwebp */ = {
-			isa = PBXGroup;
-			children = (
-				D9AFDFA02124089800A35C53 /* UIImage+WebP.h */,
-				D9AFDFA12124089800A35C53 /* WebP.framework */,
+				3BDABB6D2444B80D007B4BE2 /* WebP.framework */,
+				3BDABB6E2444B80D007B4BE2 /* libYZwebp.a */,
+				3BDABB6F2444B80D007B4BE2 /* UIImage+YZWebp.h */,
 			);
 			path = YZwebp;
 			sourceTree = "<group>";
@@ -132,7 +116,7 @@
 		FB2B587520C4DEA600396EAB /* WEBP */ = {
 			isa = PBXGroup;
 			children = (
-				D9AFDF9D2124089800A35C53 /* YZwebp */,
+				3BDABB6C2444B80D007B4BE2 /* YZwebp */,
 				FB2B58B120C4DFB000396EAB /* a.webp */,
 				FB2B587620C4DEA600396EAB /* AppDelegate.h */,
 				FB2B587720C4DEA600396EAB /* AppDelegate.m */,
@@ -450,6 +434,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WEBP/YZwebp/include/YZwebp",
+					"$(PROJECT_DIR)/WEBP/YZwebp",
 				);
 				INFOPLIST_FILE = WEBP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -478,6 +463,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WEBP/YZwebp/include/YZwebp",
+					"$(PROJECT_DIR)/WEBP/YZwebp",
 				);
 				INFOPLIST_FILE = WEBP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
